@@ -151,7 +151,7 @@ export function Site({ c, lang }) {
                   <span style={{ display: 'inline-block', width: 28, height: 2, background: RED }} />
                   {c.hero.kicker}
                 </div>
-                <h1 style={{ fontSize: 'clamp(38px, 5.5vw, 72px)', lineHeight: 1.05, fontWeight: 800, margin: '0 0 24px', maxWidth: '15ch', textWrap: 'balance' }}>{c.hero.title}</h1>
+                <h1 style={{ color: '#fff', fontSize: 'clamp(38px, 5.5vw, 72px)', lineHeight: 1.05, fontWeight: 800, margin: '0 0 24px', maxWidth: '15ch', textWrap: 'balance' }}>{c.hero.title}</h1>
                 <p style={{ fontSize: 'clamp(19px, 2vw, 24px)', fontWeight: 600, lineHeight: 1.4, margin: '0 0 16px', maxWidth: '58ch', color: '#EDEDED' }}>{c.hero.sub}</p>
                 <p style={{ fontSize: 17, lineHeight: 1.6, margin: '0 0 40px', maxWidth: '62ch', color: '#AAA' }}>{c.hero.text}</p>
                 <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
@@ -160,7 +160,7 @@ export function Site({ c, lang }) {
                 </div>
                 <div style={{ display: 'flex', gap: 40, flexWrap: 'wrap', marginTop: 48, paddingTop: 28, borderTop: '1px solid #333' }}>
                   {c.hero.stats.map((s) => (
-                    <div key={s.l}><div style={{ fontSize: 26, fontWeight: 800 }}>{s.n}</div><div style={{ fontSize: 13, color: '#999', marginTop: 2 }}>{s.l}</div></div>
+                    <div key={s.l}><div style={{ color: '#fff', fontSize: 26, fontWeight: 800 }}>{s.n}</div><div style={{ fontSize: 13, color: '#999', marginTop: 2 }}>{s.l}</div></div>
                   ))}
                 </div>
               </div>
@@ -318,7 +318,7 @@ export function Site({ c, lang }) {
               <h2 style={{ ...h2Style, margin: '0 0 48px', maxWidth: 700 }}>{c.caseStudy.title}</h2>
               <div className="lc-reveal" style={{ background: '#fff', border: '1px solid #E8E8E8', borderRadius: 6, overflow: 'hidden' }}>
                 <div style={{ padding: 40, borderBottom: '1px solid #EEE' }}>
-                  <h3 style={{ fontSize: 'clamp(21px, 2.4vw, 28px)', fontWeight: 800, margin: '0 0 8px', textWrap: 'balance' }}>{c.caseStudy.headline}</h3>
+                  <h3 style={{ color: '#111', fontSize: 'clamp(21px, 2.4vw, 28px)', fontWeight: 800, margin: '0 0 8px', textWrap: 'balance' }}>{c.caseStudy.headline}</h3>
                   <p style={{ fontSize: 15, color: '#888', margin: 0 }}>{c.caseStudy.customer}</p>
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
