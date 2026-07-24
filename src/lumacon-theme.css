@@ -16,7 +16,8 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; font-family: 'Manrope', 'Helvetica Neue', sans-serif; color: #111111; background: #fff; -webkit-font-smoothing: antialiased; }
 a { color: #111111; text-decoration: none; }
-a:hover { color: var(--color-accent); }
+/* Hover-Rot nur für Textlinks – nicht für Astryx-Buttons (die als <a> mit Klasse rendern) */
+a:not([class]):hover { color: var(--color-accent); }
 * { box-sizing: border-box; }
 ::selection { background: var(--color-accent); color: #fff; }
 
