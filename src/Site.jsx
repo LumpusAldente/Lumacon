@@ -145,7 +145,7 @@ export function Site({ c, lang }) {
           {/* Hero */}
           <section style={{ overflow: 'hidden', position: 'relative', background: '#111', color: '#fff', backgroundImage: 'linear-gradient(135deg, rgba(215,25,32,0.10), transparent 55%)' }}>
             <NetworkBg />
-            <div style={{ ...MAXW, position: 'relative', padding: 'clamp(64px, 8vw, 110px) 24px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: 48, alignItems: 'center' }}>
+            <div style={{ ...MAXW, position: 'relative', padding: 'clamp(64px, 8vw, 110px) 24px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(340px, 100%), 1fr))', gap: 48, alignItems: 'center' }}>
               <div>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: 10, fontSize: 14, fontWeight: 600, letterSpacing: '0.06em', color: '#BBB', marginBottom: 28 }}>
                   <span style={{ display: 'inline-block', width: 28, height: 2, background: RED }} />
@@ -186,7 +186,7 @@ export function Site({ c, lang }) {
 
           {/* IMOS */}
           <section id="imos" style={{ background: '#fff' }}>
-            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 56, alignItems: 'center' }}>
+            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: 56, alignItems: 'center' }}>
               <div>
                 <Kicker>{c.imos.kicker}</Kicker>
                 <h2 style={h2Style}>{c.imos.title}</h2>
@@ -218,7 +218,7 @@ export function Site({ c, lang }) {
                 <h2 style={h2Style}>{c.services.title}</h2>
                 <p style={{ fontSize: 17, lineHeight: 1.7, color: '#444', margin: 0 }}>{c.services.text}</p>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 20 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 20 }}>
                 {c.services.items.map((s, i) => (
                   <div key={s.title} className="lc-reveal" style={{ background: '#fff', border: '1px solid #E8E8E8', borderRadius: 6, padding: 30, display: 'flex', flexDirection: 'column', gap: 12, transitionDelay: (i % 3) * 0.08 + 's' }}>
                     <div style={{ fontSize: 13, fontWeight: 800, color: '#CCC', letterSpacing: '0.08em' }}>{String(i + 1).padStart(2, '0')}</div>
@@ -235,7 +235,7 @@ export function Site({ c, lang }) {
             <div style={{ ...MAXW, padding: SECTION_PAD }}>
               <Kicker>{c.process.kicker}</Kicker>
               <h2 style={{ ...h2Style, margin: '0 0 56px', maxWidth: 640 }}>{c.process.title}</h2>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '32px 24px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(200px, 100%), 1fr))', gap: '32px 24px' }}>
                 {c.process.steps.map((p, i) => (
                   <div key={p.title} className="lc-reveal" style={{ transitionDelay: (i % 3) * 0.08 + 's' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
@@ -256,7 +256,7 @@ export function Site({ c, lang }) {
               <Kicker>{c.solutions.kicker}</Kicker>
               <h2 style={{ ...h2Style, maxWidth: 640 }}>{c.solutions.title}</h2>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: '#444', margin: '0 0 48px', maxWidth: '62ch' }}>{c.solutions.text}</p>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 12 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(240px, 100%), 1fr))', gap: 12 }}>
                 {c.solutions.areas.map((a, i) => (
                   <div key={a} className="lc-reveal" style={{ background: '#fff', border: '1px solid #E8E8E8', borderRadius: 5, padding: '18px 20px', display: 'flex', alignItems: 'center', gap: 12, fontSize: 15.5, fontWeight: 700, color: '#222', transitionDelay: (i % 4) * 0.06 + 's' }}>
                     <span style={{ width: 8, height: 8, background: RED, flexShrink: 0 }} />
@@ -274,7 +274,7 @@ export function Site({ c, lang }) {
               <Kicker>{c.tech.kicker}</Kicker>
               <h2 style={{ ...h2Style, maxWidth: 700, color: '#fff' }}>{c.tech.title}</h2>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: '#AAA', margin: '0 0 48px', maxWidth: '62ch' }}>{c.tech.text}</p>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 18 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))', gap: 18 }}>
                 <div style={{ gridColumn: '1 / -1' }}>
                   <img src={c.tech.image} alt="IMOS Technologie" style={{ width: '100%', aspectRatio: '21 / 9', objectFit: 'cover', borderRadius: 8, display: 'block' }} />
                 </div>
@@ -291,7 +291,7 @@ export function Site({ c, lang }) {
 
           {/* Über Lumacon */}
           <section id="ueber" style={{ background: '#fff' }}>
-            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 56, alignItems: 'start' }}>
+            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: 56, alignItems: 'start' }}>
               <div>
                 <Kicker>{c.about.kicker}</Kicker>
                 <h2 style={h2Style}>{c.about.title}</h2>
@@ -321,7 +321,7 @@ export function Site({ c, lang }) {
                   <h3 style={{ color: '#111', fontSize: 'clamp(21px, 2.4vw, 28px)', fontWeight: 800, margin: '0 0 8px', textWrap: 'balance' }}>{c.caseStudy.headline}</h3>
                   <p style={{ fontSize: 15, color: '#888', margin: 0 }}>{c.caseStudy.customer}</p>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(260px, 100%), 1fr))' }}>
                   {c.caseStudy.blocks.map((b) => (
                     <div key={b.label} style={{ padding: '28px 40px', borderBottom: '1px solid #EEE', borderRight: '1px solid #EEE' }}>
                       <div style={{ fontSize: 12.5, fontWeight: 800, letterSpacing: '0.12em', color: RED, marginBottom: 10 }}>{b.label}</div>
@@ -341,7 +341,7 @@ export function Site({ c, lang }) {
           {/* Support */}
           <section id="support" style={{ background: '#fff' }}>
             <div style={{ ...MAXW, padding: SECTION_PAD }}>
-              <div className="lc-reveal" style={{ border: '1px solid #E8E8E8', borderLeft: '4px solid ' + RED, borderRadius: '0 6px 6px 0', padding: 'clamp(32px, 4vw, 56px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 40, alignItems: 'center', background: '#FAFAFA' }}>
+              <div className="lc-reveal" style={{ border: '1px solid #E8E8E8', borderLeft: '4px solid ' + RED, borderRadius: '0 6px 6px 0', padding: 'clamp(32px, 4vw, 56px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: 40, alignItems: 'center', background: '#FAFAFA' }}>
                 <div>
                   <Kicker>{c.support.kicker}</Kicker>
                   <h2 style={{ fontSize: 'clamp(26px, 3vw, 36px)', fontWeight: 800, lineHeight: 1.15, margin: '0 0 16px', textWrap: 'balance' }}>{c.support.title}</h2>
@@ -358,7 +358,7 @@ export function Site({ c, lang }) {
 
           {/* Impressum / Datenschutz */}
           <section id="impressum" style={{ background: '#fff', borderTop: '1px solid #E8E8E8' }}>
-            <div style={{ ...MAXW, padding: '56px 24px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 40 }}>
+            <div style={{ ...MAXW, padding: '56px 24px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: 40 }}>
               <div>
                 <div style={{ fontSize: 12.5, fontWeight: 800, letterSpacing: '0.12em', color: RED, marginBottom: 12 }}>{c.legal.imprintLabel}</div>
                 <p style={{ fontSize: 14.5, lineHeight: 1.7, color: '#666', margin: 0 }}>{c.legal.imprint}</p>
@@ -372,15 +372,15 @@ export function Site({ c, lang }) {
 
           {/* Kontakt */}
           <section id="kontakt" style={{ background: '#F4F4F4', borderTop: '1px solid #E8E8E8' }}>
-            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 56, alignItems: 'start' }}>
+            <div style={{ ...MAXW, padding: SECTION_PAD, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: 56, alignItems: 'start' }}>
               <div>
                 <Kicker>{c.contact.kicker}</Kicker>
                 <h2 style={h2Style}>{c.contact.title}</h2>
                 <p style={{ fontSize: 17, lineHeight: 1.7, color: '#444', margin: '0 0 36px', maxWidth: '56ch' }}>{c.contact.text}</p>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
                   {c.contact.rows.map((r) => (
-                    <div key={r.label} style={{ display: 'flex', gap: 14, alignItems: 'baseline' }}>
-                      <span style={{ fontSize: 13, fontWeight: 800, letterSpacing: '0.1em', color: '#999', width: 84, flexShrink: 0 }}>{r.label}</span>
+                    <div key={r.label} style={{ display: 'flex', gap: '6px 14px', alignItems: 'baseline', flexWrap: 'wrap' }}>
+                      <span style={{ fontSize: 13, fontWeight: 800, letterSpacing: '0.1em', color: '#999', minWidth: 96, flexShrink: 0 }}>{r.label}</span>
                       {r.href ? <a href={r.href} style={{ fontSize: 16, fontWeight: 700 }}>{r.value}</a> : <span style={{ fontSize: 16, fontWeight: 700, color: '#222' }}>{r.value}</span>}
                     </div>
                   ))}
