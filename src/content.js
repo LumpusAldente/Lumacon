@@ -3,149 +3,145 @@ export const de = {
   otherLang: { href: '/en/', label: 'EN', current: 'DE' },
   badge: 'Autorisierter IMOS Partner für Österreich, Südtirol und Slowenien',
   nav: [
+    { href: '#warum', label: 'Warum Lumacon' },
     { href: '#leistungen', label: 'Leistungen' },
-    { href: '#imos', label: 'IMOS' },
-    { href: '#loesungen', label: 'Lösungen' },
-    { href: '#ueber', label: 'Über Lumacon' },
-    { href: '#support', label: 'Support' },
+    { href: '#ablauf', label: 'Ablauf' },
+    { href: '#referenzen', label: 'Referenzen' },
+    { href: '#faq', label: 'FAQ' },
     { href: '#kontakt', label: 'Kontakt' }
   ],
-  cta: 'Beratung anfragen',
+  cta: 'Jetzt Beratung anfragen',
   hero: {
-    kicker: 'Von der ersten Prozessanalyse bis zur laufenden Betreuung',
-    title: 'Digitale Prozesse für Möbelbau und Innenausbau',
-    sub: 'Lumacon ist Ihr autorisierter IMOS-Partner für Beratung, Implementierung, Schulung und Support in Österreich.',
-    text: 'Wir verbinden Planung, Konstruktion und Fertigung zu einem durchgängigen digitalen Prozess – individuell abgestimmt auf Ihr Unternehmen.',
-    cta2: 'Leistungen entdecken',
-    stats: [
-      { n: '1', l: 'Ansprechpartner' },
-      { n: '1', l: 'durchgängige Datenbasis' },
-      { n: '5', l: 'Schritte bis zum Betrieb' },
-      { n: '3', l: 'Regionen: AT · Südtirol · SLO' }
-    ],
-    image: 'https://www.imos3d.com/fileadmin/imos_media/Hero/imos-iX-Planung-und-Verkauf-POS_AI-Render.png',
-    imageCredit: '© imos AG'
+    kicker: 'Ihr persönlicher IMOS-Ansprechpartner in Österreich',
+    title: 'Planung, Konstruktion und Fertigung – endlich ein durchgängiger Prozess',
+    sub: 'Ich begleite Tischlereien, Möbelhersteller und Innenausbauer persönlich bei der Einführung und Optimierung von IMOS. Von der ersten Analyse bis zum laufenden Betrieb.',
+    phone: '+43 664 2019 662',
+    phoneHref: 'tel:+436642019662',
+    mail: 'office@lumacon.at',
+    mailHref: 'mailto:office@lumacon.at?subject=Anfrage%20IMOS-Beratung',
+    name: 'Harald Lumplecker',
+    role: 'Gründer Lumacon · IMOS-Partner Österreich'
   },
   trust: ['Autorisierter IMOS Partner', 'Persönliche Betreuung', 'Individuelle Implementierung', 'Beratung, Schulung und Support', 'Ansprechpartner für Österreich'],
-  imos: {
-    kicker: 'WAS IST IMOS?',
-    title: 'Durchgängige Software für Möbel und Innenausbau',
-    p1: 'IMOS ist eine umfassende Softwareplattform für Unternehmen im Möbelbau und Innenausbau. Sie unterstützt die gesamte Prozesskette – vom Verkauf und der Planung über Konstruktion und Arbeitsvorbereitung bis zur Fertigung.',
-    p2: 'Alle Bereiche arbeiten mit denselben Daten. Das reduziert Übertragungsfehler, spart Zeit in der Arbeitsvorbereitung und schafft verlässliche Fertigungsdaten.',
-    button: 'Mehr über IMOS erfahren',
-    url: 'https://www.imos3d.com',
-    chainTitle: 'EINE PROZESSKETTE – EINE DATENBASIS',
-    chain: ['Verkauf', 'Planung', 'Konstruktion', 'Arbeitsvorbereitung', 'Fertigung'],
-    image: 'https://www.imos3d.com/fileadmin/_processed_/f/f/csm_Kontruktion_Auftrag_f138d0af82.png'
+  challenges: {
+    kicker: 'AUS DER PRAXIS',
+    title: 'Kennen Sie diese Herausforderungen?',
+    items: [
+      'Daten werden mehrfach eingegeben – in Planung, AV und Fertigung',
+      'Die Planung dauert länger, als der Auftrag verträgt',
+      'Zwischen Planung und Fertigung entstehen Fehler',
+      'Hoher Abstimmungsaufwand zwischen Büro und Werkstatt',
+      'Die Digitalisierung ist begonnen, aber nicht durchgängig',
+      'IMOS ist vorhanden, wird aber nicht voll genutzt'
+    ],
+    bridge: 'Genau hier setze ich an: Wir analysieren gemeinsam Ihre Abläufe und machen daraus einen durchgängigen digitalen Prozess.'
+  },
+  why: {
+    kicker: 'WARUM LUMACON',
+    title: 'Sie arbeiten nicht mit einer Hotline. Sie arbeiten mit mir.',
+    p1: 'Ich kenne beide Seiten: die Software und den Fertigungsalltag. Seit vielen Jahren begleite ich Betriebe im Möbelbau und Innenausbau bei der Einführung und Weiterentwicklung von IMOS – vor Ort, persönlich und langfristig.',
+    p2: 'Hinter mir steht ein internationales Netzwerk aus Software-, Produktions- und IMOS-Spezialisten. Vor Ihnen steht ein Ansprechpartner, der Ihr Projekt kennt.',
+    imosNote: 'IMOS ist die Softwareplattform für Möbelbau und Innenausbau – vom Verkauf über Planung und Konstruktion bis zur Fertigung, alles auf einer Datenbasis.',
+    imosButton: 'Mehr über IMOS erfahren',
+    imosUrl: 'https://www.imos3d.com',
+    name: 'Harald Lumplecker',
+    role: 'Gründer und Ihr Ansprechpartner'
+  },
+  benefits: {
+    kicker: 'IHR NUTZEN',
+    title: 'Was Sie davon haben',
+    items: [
+      { title: 'Sie sparen Zeit', text: 'Planung, Konstruktion und Arbeitsvorbereitung greifen ineinander – ohne doppelte Eingaben.' },
+      { title: 'Sie machen weniger Fehler', text: 'Eine Datenbasis von der Planung bis zur Maschine. Was geplant ist, wird auch so gefertigt.' },
+      { title: 'Sie liefern verlässlicher', text: 'Verlässliche Fertigungsdaten, klare Abläufe und weniger Rückfragen zwischen Büro und Werkstatt.' },
+      { title: 'Sie bleiben flexibel', text: 'Die Lösung wächst mit: Maschinen, ERP und Webshop lassen sich anbinden, wenn Sie so weit sind.' }
+    ]
   },
   services: {
-    kicker: 'DIE ROLLE VON LUMACON',
-    title: 'Software allein schafft noch keinen funktionierenden Prozess',
-    text: 'Jedes Unternehmen hat eigene Anforderungen, Maschinen, Schnittstellen und Arbeitsabläufe. Wir sorgen dafür, dass IMOS nicht nur installiert, sondern sinnvoll in Ihre bestehenden Abläufe integriert wird. Gemeinsam analysieren wir Ihre Prozesse, definieren die passende Lösung und begleiten Sie von der Einführung bis zum laufenden Betrieb.',
+    kicker: 'LEISTUNGEN',
+    title: 'Vier Bereiche. Ein Ansprechpartner.',
     items: [
-      { title: 'Beratung und Prozessanalyse', text: 'Analyse bestehender Abläufe sowie Definition der zukünftigen digitalen Prozessstruktur.' },
-      { title: 'Lizenz- und Lösungsplanung', text: 'Auswahl der passenden IMOS-Module und Funktionen für die individuellen Anforderungen.' },
-      { title: 'Implementierung und Customizing', text: 'Einrichtung und Anpassung der Software an Prozesse, Produkte und Arbeitsweisen des Kunden.' },
-      { title: 'Maschinen und Schnittstellen', text: 'Anbindung von Produktionsmaschinen, ERP-Systemen, Fremdsoftware und weiteren Datenquellen.' },
-      { title: 'Schulung und Einführung', text: 'Praxisorientierte Schulung der Mitarbeiter und strukturierte Begleitung beim Produktivstart.' },
-      { title: 'Support und Weiterentwicklung', text: 'Unterstützung im laufenden Betrieb sowie kontinuierliche Optimierung bestehender Lösungen.' }
+      { title: 'Beratung', text: 'Wir analysieren Ihre Abläufe und planen die passende Lösung – Module, Lizenzen, Schnittstellen.', benefit: 'Sie investieren nur in das, was Ihr Betrieb wirklich braucht.' },
+      { title: 'Einführung', text: 'Installation, Customizing und Anbindung Ihrer Maschinen und Systeme – abgestimmt auf Ihre Arbeitsweise.', benefit: 'IMOS fügt sich in Ihre Abläufe ein, nicht umgekehrt.' },
+      { title: 'Schulung', text: 'Praxisnahe Schulung Ihrer Mitarbeiter und strukturierte Begleitung beim Produktivstart.', benefit: 'Ihr Team arbeitet vom ersten Tag an sicher mit der Software.' },
+      { title: 'Laufende Betreuung', text: 'Support im Tagesgeschäft und kontinuierliche Weiterentwicklung Ihrer Lösung.', benefit: 'Sie haben dauerhaft jemanden, der Ihr System und Ihren Betrieb kennt.' }
     ]
   },
   process: {
-    kicker: 'SO ARBEITEN WIR',
-    title: 'Von der ersten Analyse bis zum laufenden Betrieb',
+    kicker: 'SO STARTEN WIR',
+    title: 'Von der ersten Frage bis zum laufenden Betrieb',
     steps: [
-      { title: 'Kennenlernen und Zieldefinition', text: 'Wir klären gemeinsam, wo Sie stehen und was Sie erreichen möchten.' },
-      { title: 'Analyse der bestehenden Prozesse', text: 'Wir sehen uns Ihre Abläufe, Maschinen und Systeme im Detail an.' },
-      { title: 'Planung und Konfiguration', text: 'Wir definieren Module, Schnittstellen und den passenden Lösungsumfang.' },
-      { title: 'Implementierung und Schulung', text: 'Wir richten die Lösung ein und schulen Ihr Team praxisnah.' },
-      { title: 'Support und Optimierung', text: 'Wir begleiten den laufenden Betrieb und entwickeln Ihre Lösung weiter.' }
+      { title: 'Erstgespräch', text: 'Unverbindlich und kostenlos: Wo stehen Sie, was möchten Sie erreichen?' },
+      { title: 'Analyse', text: 'Ich sehe mir Ihre Abläufe, Maschinen und Systeme im Detail an.' },
+      { title: 'IMOS-Demo', text: 'Sie sehen an Ihren eigenen Beispielen, wie die Lösung arbeitet.' },
+      { title: 'Einführung', text: 'Einrichtung, Anpassung und Schulung – begleitet bis zum Produktivstart.' },
+      { title: 'Laufende Betreuung', text: 'Support und Weiterentwicklung, solange Sie mich brauchen.' }
     ]
   },
-  solutions: {
-    kicker: 'LÖSUNGEN UND ANWENDUNGSBEREICHE',
-    title: 'Ein Prozess, viele Einsatzbereiche',
-    text: 'Ob Einzelmöbel, Serienfertigung oder komplexer Objektauftrag – Lumacon und IMOS decken die relevanten Bereiche Ihrer Wertschöpfung ab.',
-    areas: ['Möbelplanung', 'Innenausbau', 'Küchenplanung', 'Ladenbau', 'Objekteinrichtung', 'Arbeitsvorbereitung', 'CNC- und Maschinenanbindung', 'Fertigungsdaten', 'Digitale Montageunterlagen', 'Webshop- und Bestelllösungen', 'Visualisierung und Rendering', 'Cloudbasierte Auftragsinformationen']
-  },
-  tech: {
-    kicker: 'TECHNOLOGISCHE HIGHLIGHTS',
-    title: 'Moderne Werkzeuge für den täglichen Betrieb',
-    text: 'Wir setzen aktuelle Technologien dort ein, wo sie im Alltag echten Nutzen bringen – nicht als Selbstzweck.',
-    image: 'https://www.imos3d.com/fileadmin/imos_media/Hero/NET%20Studio%20Kitchen_2023.png',
-    items: [
-      { title: 'KI-gestütztes Rendering', text: 'Fotorealistische Visualisierungen für Verkauf und Abstimmung – direkt aus den Planungsdaten.' },
-      { title: 'Digitale Montage- und Werkstattanleitungen', text: 'Klare Anleitungen am Bildschirm oder Tablet statt Papierstapel in der Werkstatt.' },
-      { title: 'Cloudbasierte Auftragsinformationen', text: 'Aktuelle Projektdaten für alle Beteiligten – im Büro, in der Fertigung und auf der Baustelle.' },
-      { title: 'Durchgängige CAD-/CAM-Prozesse', text: 'Von der Konstruktion bis zum Maschinenprogramm ohne manuelle Zwischenschritte.' },
-      { title: 'Automatisierte Fertigungsdaten', text: 'Stücklisten, Zuschnittdaten und CNC-Programme entstehen direkt aus der Konstruktion.' },
-      { title: 'Individuelle Schnittstellen', text: 'Anbindung von ERP, Branchensoftware und bestehenden Systemen nach Bedarf.' },
-      { title: 'Webshop-Anbindungen', text: 'Konfigurierbare Produkte online bestellen – direkt in den Produktionsprozess integriert.' },
-      { title: 'Mobile Projektinformationen', text: 'Zeichnungen, Status und Unterlagen mobil verfügbar, wo sie gebraucht werden.' }
-    ]
-  },
-  about: {
-    kicker: 'ÜBER LUMACON',
-    title: 'Persönliche Betreuung trifft technisches Know-how',
-    p1: 'Lumacon verbindet persönliche Betreuung vor Ort mit dem Know-how eines internationalen Netzwerks aus Software-, Produktions- und IMOS-Spezialisten.',
-    p2: 'Als autorisierter IMOS-Partner betreuen wir Unternehmen in Österreich sowie in Südtirol und Slowenien – von der ersten Prozessanalyse über die Einführung bis zur laufenden Weiterentwicklung.',
-    p3: 'Sie sprechen bei uns nicht mit einer Hotline, sondern mit dem Menschen, der Ihr Projekt kennt.',
-    name: 'Harald Lumplecker',
-    role: 'Gründer und Ihr Ansprechpartner',
-    bio: 'Harald Lumplecker begleitet seit vielen Jahren Unternehmen im Möbelbau und Innenausbau bei der Einführung und Weiterentwicklung von IMOS. Er kennt beide Seiten – die Software und den Fertigungsalltag – und ist bei Lumacon Ihr direkter Ansprechpartner von der ersten Analyse bis zum laufenden Betrieb.'
-  },
-  caseStudy: {
-    kicker: 'FALLSTUDIE',
+  references: {
+    kicker: 'REFERENZEN',
     title: 'Digitale Prozesse in der Praxis',
     headline: 'Von getrennten Arbeitsschritten zu einem durchgängigen Produktionsprozess',
     customer: '[Referenzkunde und Branche ergänzen]',
     blocks: [
-      { label: 'AUSGANGSSITUATION', text: '[Platzhalter: Beschreibung des Betriebs, der bisherigen Arbeitsweise und der eingesetzten Systeme.]' },
-      { label: 'HERAUSFORDERUNG', text: '[Platzhalter: Welche Brüche, Doppelarbeiten oder Engpässe sollten gelöst werden?]' },
-      { label: 'UMGESETZTE LÖSUNG', text: '[Platzhalter: Welche Prozesse wurden mit IMOS und Lumacon neu aufgesetzt?]' },
-      { label: 'EINGESETZTE FUNKTIONEN', text: '[Platzhalter: Module, Schnittstellen und Anbindungen, die zum Einsatz kamen.]' },
-      { label: 'ERGEBNIS', text: '[Platzhalter: Konkreter Nutzen – z. B. Zeitersparnis, weniger Fehler, durchgängige Daten.]' }
+      { label: 'AUSGANGSSITUATION', text: '[Platzhalter: Betrieb, bisherige Arbeitsweise, eingesetzte Systeme.]' },
+      { label: 'LÖSUNG', text: '[Platzhalter: Welche Prozesse wurden mit IMOS und Lumacon neu aufgesetzt?]' },
+      { label: 'ERGEBNIS', text: '[Platzhalter: Konkreter Nutzen – Zeitersparnis, weniger Fehler, durchgängige Daten.]' }
     ],
     quoteLabel: 'KUNDENSTATEMENT',
-    quote: '„[Platzhalter für ein Zitat des Referenzkunden über die Zusammenarbeit mit Lumacon und die Wirkung im Betriebsalltag.]“',
-    quoteAuthor: '[Name, Funktion, Unternehmen]'
+    quote: '„[Platzhalter für ein Zitat des Referenzkunden über die Zusammenarbeit mit Lumacon.]“',
+    quoteAuthor: '[Name, Funktion, Unternehmen]',
+    logosLabel: 'Betriebe, die auf Lumacon vertrauen',
+    logosNote: '[Kundenlogos ergänzen]'
+  },
+  faq: {
+    kicker: 'FAQ',
+    title: 'Häufige Fragen',
+    items: [
+      { q: 'Für wen eignet sich IMOS?', a: 'Für Tischlereien, Möbelhersteller, Küchen- und Ladenbauer sowie Innenausbaubetriebe – vom Einzelfertiger bis zur Serienproduktion. Ob IMOS zu Ihrem Betrieb passt, klären wir im Erstgespräch.' },
+      { q: 'Wie läuft eine Einführung ab?', a: 'In fünf Schritten: Erstgespräch, Analyse Ihrer Abläufe, IMOS-Demo an Ihren Beispielen, Einführung mit Schulung, danach laufende Betreuung. Sie wissen in jeder Phase, was als Nächstes kommt.' },
+      { q: 'Wie lange dauert eine Implementierung?', a: 'Das hängt vom Umfang ab – von wenigen Wochen für einen fokussierten Einstieg bis zu mehreren Monaten bei Maschinenanbindung und Customizing. Einen realistischen Zeitplan bekommen Sie nach der Analyse.' },
+      { q: 'Kann bestehende Software integriert werden?', a: 'Ja. ERP-Systeme, Branchensoftware, Maschinen und Webshops lassen sich über Schnittstellen anbinden. Das gehört zu meinen Kernleistungen.' },
+      { q: 'Gibt es Schulungen?', a: 'Ja, praxisnah und an Ihren eigenen Projekten. Ihr Team lernt genau die Funktionen, die es im Alltag braucht – beim Produktivstart begleite ich Sie persönlich.' },
+      { q: 'Unterstützt Lumacon auch bestehende IMOS-Kunden?', a: 'Ja. Viele Betriebe nutzen nur einen Teil der Möglichkeiten. Ich analysiere Ihre bestehende Installation und optimiere Prozesse, Stammdaten und Anbindungen.' },
+      { q: 'Wie läuft eine Erstberatung ab?', a: 'Telefonisch oder vor Ort, unverbindlich und kostenlos. Wir besprechen Ihre Situation und Sie bekommen eine ehrliche Einschätzung – auch, wenn IMOS nicht die richtige Lösung ist.' }
+    ]
   },
   support: {
-    kicker: 'SUPPORT',
-    title: 'Schnelle Unterstützung, wenn Sie sie brauchen',
-    text: 'Für technische Fragen und Supportanfragen steht bestehenden Kunden ein direkter Supportzugang zur Verfügung. Im Fernwartungsfall genügt der QuickSupport – erreichbar auch unter',
+    title: 'Bereits Kunde?',
+    text: 'Für technische Fragen steht Ihnen der direkte Supportzugang zur Verfügung – im Fernwartungsfall über',
     shortUrl: 'lumacon.at/qs',
     buttons: [
-      { label: 'Support anfragen', href: '#kontakt', variant: 'primary' },
-      { label: 'QuickSupport starten', href: '/qs', variant: 'secondary' },
-      { label: 'Supportportal öffnen', href: '#support', variant: 'ghost' }
+      { label: 'Support anfragen', href: 'mailto:office@lumacon.at?subject=Supportanfrage', variant: 'secondary' },
+      { label: 'QuickSupport starten', href: '/qs', variant: 'ghost' }
     ]
   },
   contact: {
     kicker: 'KONTAKT',
     title: 'Lassen Sie uns über Ihre Prozesse sprechen',
-    text: 'Sie möchten IMOS einführen, bestehende Abläufe optimieren oder Ihre Produktion besser vernetzen? Wir beraten Sie gerne persönlich.',
+    text: 'Erzählen Sie mir, wo Ihr Betrieb steht. Sie bekommen eine ehrliche Einschätzung – unverbindlich und kostenlos.',
     rows: [
-      { label: 'E-MAIL', value: 'office@lumacon.at', href: 'mailto:office@lumacon.at' },
+      { label: 'E-MAIL', value: 'office@lumacon.at', href: 'mailto:office@lumacon.at?subject=Anfrage%20IMOS-Beratung' },
+      { label: 'TELEFON', value: '+43 664 2019 662', href: 'tel:+436642019662' },
       { label: 'STANDORT', value: 'Waidhofner Straße 88, 3335 Weyer' },
       { label: 'ERREICHBAR', value: 'Montag – Freitag, 8:00 bis 16:00 Uhr' }
     ],
-    cardRole: 'Ihr direkter Ansprechpartner',
-    cardText: 'Sie sprechen direkt mit mir – nicht mit einer Hotline. Rufen Sie an oder schreiben Sie mir, und wir besprechen unverbindlich, wo Ihre Prozesse heute stehen.',
+    cardRole: 'Sie schreiben direkt mit mir',
+    cardText: 'Keine Hotline, kein Ticketsystem. Ihre Nachricht landet bei mir – und ich melde mich persönlich zurück.',
     callLabel: 'Anrufen: +43 664 2019 662',
     callHref: 'tel:+436642019662',
     mailLabel: 'E-Mail schreiben',
-    mailHref: 'mailto:office@lumacon.at?subject=Beratungsanfrage%20IMOS',
+    mailHref: 'mailto:office@lumacon.at?subject=Anfrage%20IMOS-Beratung&body=Guten%20Tag%20Herr%20Lumplecker%2C%0A%0Awir%20m%C3%B6chten%20unsere%20Prozesse%20digitalisieren%20und%20interessieren%20uns%20f%C3%BCr%20eine%20Erstberatung.%0A%0AUnser%20Betrieb%3A%20%0AUnsere%20aktuelle%20Situation%3A%20%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen',
     hours: 'Erreichbar Montag – Freitag, 8:00 bis 16:00 Uhr'
   },
   legal: {
     imprintLabel: 'IMPRESSUM',
     imprint: 'Lumacon Holztechnologie GmbH · Geschäftsführer: Harald Lumplecker · Waidhofner Straße 88, 3335 Weyer, Österreich · E-Mail: office@lumacon.at · Telefon: +43 664 2019 662 · UID: ATU24129306 · [Firmenbuchnummer und zuständiges Gericht ergänzen]',
     privacyLabel: 'DATENSCHUTZ',
-    privacy: 'Wir verwenden Ihre Daten ausschließlich zur Bearbeitung Ihrer Anfrage. Eine Weitergabe an Dritte erfolgt nicht. [Vollständige DSGVO-Datenschutzerklärung ergänzen – Verantwortlicher, Rechtsgrundlagen, Speicherfristen, Betroffenenrechte.]'
+    privacy: 'Wir verwenden Ihre Daten ausschließlich zur Bearbeitung Ihrer Anfrage. Eine Weitergabe an Dritte erfolgt nicht. [Vollständige DSGVO-Datenschutzerklärung ergänzen.]'
   },
   footer: {
-    positioning: 'Beratungs-, Implementierungs- und Servicepartner für digitale Prozesse im Möbelbau und Innenausbau. Autorisierter IMOS-Partner für Österreich.',
+    positioning: 'Persönliche Beratung, Einführung und Betreuung rund um IMOS – für Möbelbau, Tischlereien und Innenausbau. Autorisierter IMOS-Partner für Österreich.',
     navLabel: 'NAVIGATION',
     contactLabel: 'KONTAKT',
     partnerLabel: 'PARTNERSCHAFT',
@@ -173,149 +169,145 @@ export const en = {
   otherLang: { href: '/', label: 'DE', current: 'EN' },
   badge: 'Authorized IMOS Partner for Austria, South Tyrol and Slovenia',
   nav: [
+    { href: '#warum', label: 'Why Lumacon' },
     { href: '#leistungen', label: 'Services' },
-    { href: '#imos', label: 'IMOS' },
-    { href: '#loesungen', label: 'Solutions' },
-    { href: '#ueber', label: 'About Lumacon' },
-    { href: '#support', label: 'Support' },
+    { href: '#ablauf', label: 'How it works' },
+    { href: '#referenzen', label: 'References' },
+    { href: '#faq', label: 'FAQ' },
     { href: '#kontakt', label: 'Contact' }
   ],
-  cta: 'Request consultation',
+  cta: 'Request a consultation',
   hero: {
-    kicker: 'From the first process analysis to ongoing support',
-    title: 'Digital processes for furniture production and interior fit-out',
-    sub: 'Lumacon is your authorized IMOS partner for consulting, implementation, training and support in Austria.',
-    text: 'We connect planning, design and manufacturing into one continuous digital process – tailored to your company.',
-    cta2: 'Explore services',
-    stats: [
-      { n: '1', l: 'contact person' },
-      { n: '1', l: 'continuous data base' },
-      { n: '5', l: 'steps to daily operation' },
-      { n: '3', l: 'regions: AT · South Tyrol · SLO' }
-    ],
-    image: 'https://www.imos3d.com/fileadmin/imos_media/Hero/imos-iX-Planung-und-Verkauf-POS_AI-Render.png',
-    imageCredit: '© imos AG'
+    kicker: 'Your personal IMOS contact in Austria',
+    title: 'Planning, design and manufacturing – finally one continuous process',
+    sub: 'I personally support joineries, furniture makers and interior fit-out companies with the introduction and optimization of IMOS. From the first analysis to daily operation.',
+    phone: '+43 664 2019 662',
+    phoneHref: 'tel:+436642019662',
+    mail: 'office@lumacon.at',
+    mailHref: 'mailto:office@lumacon.at?subject=IMOS%20consultation%20request',
+    name: 'Harald Lumplecker',
+    role: 'Founder Lumacon · IMOS Partner Austria'
   },
   trust: ['Authorized IMOS Partner', 'Personal support', 'Individual implementation', 'Consulting, training and support', 'Your contact for Austria'],
-  imos: {
-    kicker: 'WHAT IS IMOS?',
-    title: 'End-to-end software for furniture and interior fit-out',
-    p1: 'IMOS is a comprehensive software platform for companies in furniture production and interior fit-out. It supports the entire process chain – from sales and planning through design and work preparation to manufacturing.',
-    p2: 'All areas work with the same data. This reduces transfer errors, saves time in work preparation and creates reliable manufacturing data.',
-    button: 'Learn more about IMOS',
-    url: 'https://www.imos3d.com/en/',
-    chainTitle: 'ONE PROCESS CHAIN – ONE DATA BASE',
-    chain: ['Sales', 'Planning', 'Design', 'Work preparation', 'Manufacturing'],
-    image: 'https://www.imos3d.com/fileadmin/_processed_/f/f/csm_Kontruktion_Auftrag_f138d0af82.png'
+  challenges: {
+    kicker: 'FROM THE SHOP FLOOR',
+    title: 'Do these challenges sound familiar?',
+    items: [
+      'Data is entered several times – in planning, work preparation and production',
+      'Planning takes longer than the order allows',
+      'Errors creep in between planning and manufacturing',
+      'Constant coordination between office and workshop',
+      'Digitalization has started, but is not continuous',
+      'IMOS is in place, but not used to its potential'
+    ],
+    bridge: 'This is exactly where I start: together we analyze your workflows and turn them into one continuous digital process.'
+  },
+  why: {
+    kicker: 'WHY LUMACON',
+    title: "You don't work with a hotline. You work with me.",
+    p1: 'I know both sides: the software and the day-to-day reality of manufacturing. For many years I have been supporting furniture and interior fit-out companies with the introduction and development of IMOS – on site, personally and long-term.',
+    p2: 'Behind me stands an international network of software, production and IMOS specialists. In front of you stands one contact person who knows your project.',
+    imosNote: 'IMOS is the software platform for furniture production and interior fit-out – from sales through planning and design to manufacturing, all on one data base.',
+    imosButton: 'Learn more about IMOS',
+    imosUrl: 'https://www.imos3d.com/en/',
+    name: 'Harald Lumplecker',
+    role: 'Founder and your contact person'
+  },
+  benefits: {
+    kicker: 'YOUR BENEFIT',
+    title: "What's in it for you",
+    items: [
+      { title: 'You save time', text: 'Planning, design and work preparation mesh together – without duplicate data entry.' },
+      { title: 'You make fewer errors', text: 'One data base from planning to the machine. What is planned is what gets built.' },
+      { title: 'You deliver more reliably', text: 'Reliable manufacturing data, clear workflows and fewer queries between office and workshop.' },
+      { title: 'You stay flexible', text: 'The solution grows with you: machines, ERP and web shop can be connected when you are ready.' }
+    ]
   },
   services: {
-    kicker: "LUMACON'S ROLE",
-    title: 'Software alone does not create a working process',
-    text: 'Every company has its own requirements, machines, interfaces and workflows. We make sure IMOS is not just installed but meaningfully integrated into your existing operations. Together we analyze your processes, define the right solution and support you from introduction to day-to-day operation.',
+    kicker: 'SERVICES',
+    title: 'Four areas. One contact person.',
     items: [
-      { title: 'Consulting and process analysis', text: 'Analysis of existing workflows and definition of the future digital process structure.' },
-      { title: 'License and solution planning', text: 'Selection of the right IMOS modules and functions for your individual requirements.' },
-      { title: 'Implementation and customizing', text: 'Setup and adaptation of the software to your processes, products and ways of working.' },
-      { title: 'Machines and interfaces', text: 'Integration of production machinery, ERP systems, third-party software and other data sources.' },
-      { title: 'Training and introduction', text: 'Hands-on training for your staff and structured support during go-live.' },
-      { title: 'Support and further development', text: 'Assistance in daily operation and continuous optimization of existing solutions.' }
+      { title: 'Consulting', text: 'We analyze your workflows and plan the right solution – modules, licenses, interfaces.', benefit: 'You only invest in what your company really needs.' },
+      { title: 'Implementation', text: 'Installation, customizing and integration of your machines and systems – matched to how you work.', benefit: 'IMOS adapts to your workflows, not the other way around.' },
+      { title: 'Training', text: 'Hands-on training for your team and structured support during go-live.', benefit: 'Your team works confidently with the software from day one.' },
+      { title: 'Ongoing support', text: 'Support in daily business and continuous development of your solution.', benefit: 'You permanently have someone who knows your system and your company.' }
     ]
   },
   process: {
-    kicker: 'HOW WE WORK',
-    title: 'From the first analysis to ongoing operation',
+    kicker: 'HOW WE START',
+    title: 'From the first question to daily operation',
     steps: [
-      { title: 'Getting to know you and defining goals', text: 'Together we clarify where you stand and what you want to achieve.' },
-      { title: 'Analysis of existing processes', text: 'We take a detailed look at your workflows, machines and systems.' },
-      { title: 'Planning and configuration', text: 'We define modules, interfaces and the right scope of the solution.' },
-      { title: 'Implementation and training', text: 'We set up the solution and train your team in a practical way.' },
-      { title: 'Support and optimization', text: 'We accompany daily operation and keep developing your solution.' }
+      { title: 'First conversation', text: 'Free and without obligation: where do you stand, what do you want to achieve?' },
+      { title: 'Analysis', text: 'I take a detailed look at your workflows, machines and systems.' },
+      { title: 'IMOS demo', text: 'You see how the solution works – using your own examples.' },
+      { title: 'Implementation', text: 'Setup, customizing and training – supported all the way to go-live.' },
+      { title: 'Ongoing support', text: 'Support and development for as long as you need me.' }
     ]
   },
-  solutions: {
-    kicker: 'SOLUTIONS AND AREAS OF APPLICATION',
-    title: 'One process, many areas of application',
-    text: 'Whether individual furniture, series production or complex contract projects – Lumacon and IMOS cover the relevant areas of your value chain.',
-    areas: ['Furniture planning', 'Interior fit-out', 'Kitchen planning', 'Shopfitting', 'Contract furnishing', 'Work preparation', 'CNC and machine integration', 'Manufacturing data', 'Digital assembly documents', 'Web shop and ordering solutions', 'Visualization and rendering', 'Cloud-based order information']
-  },
-  tech: {
-    kicker: 'TECHNOLOGY HIGHLIGHTS',
-    title: 'Modern tools for daily operations',
-    text: 'We use current technologies where they deliver real value in everyday work – not as an end in themselves.',
-    image: 'https://www.imos3d.com/fileadmin/imos_media/Hero/NET%20Studio%20Kitchen_2023.png',
-    items: [
-      { title: 'AI-powered rendering', text: 'Photorealistic visualizations for sales and coordination – straight from the planning data.' },
-      { title: 'Digital assembly and workshop instructions', text: 'Clear instructions on screen or tablet instead of stacks of paper in the workshop.' },
-      { title: 'Cloud-based order information', text: 'Up-to-date project data for everyone involved – in the office, in production and on site.' },
-      { title: 'End-to-end CAD/CAM processes', text: 'From design to machine program without manual intermediate steps.' },
-      { title: 'Automated manufacturing data', text: 'Parts lists, cutting data and CNC programs are generated directly from the design.' },
-      { title: 'Custom interfaces', text: 'Integration of ERP, industry software and existing systems as needed.' },
-      { title: 'Web shop integrations', text: 'Order configurable products online – integrated directly into the production process.' },
-      { title: 'Mobile project information', text: 'Drawings, status and documents available on the go, wherever they are needed.' }
-    ]
-  },
-  about: {
-    kicker: 'ABOUT LUMACON',
-    title: 'Personal support meets technical know-how',
-    p1: 'Lumacon combines personal on-site support with the know-how of an international network of software, production and IMOS specialists.',
-    p2: 'As an authorized IMOS partner, we serve companies in Austria as well as in South Tyrol and Slovenia – from the first process analysis through implementation to ongoing development.',
-    p3: "With us you don't talk to a hotline, but to the person who knows your project.",
-    name: 'Harald Lumplecker',
-    role: 'Founder and your contact person',
-    bio: 'Harald Lumplecker has been supporting companies in furniture production and interior fit-out with the introduction and further development of IMOS for many years. He knows both sides – the software and the day-to-day reality of manufacturing – and is your direct contact at Lumacon from the first analysis to ongoing operation.'
-  },
-  caseStudy: {
-    kicker: 'CASE STUDY',
+  references: {
+    kicker: 'REFERENCES',
     title: 'Digital processes in practice',
     headline: 'From separate work steps to one continuous production process',
     customer: '[Add reference customer and industry]',
     blocks: [
-      { label: 'INITIAL SITUATION', text: '[Placeholder: description of the company, previous way of working and systems in use.]' },
-      { label: 'CHALLENGE', text: '[Placeholder: which gaps, duplicated work or bottlenecks needed to be solved?]' },
-      { label: 'IMPLEMENTED SOLUTION', text: '[Placeholder: which processes were redesigned with IMOS and Lumacon?]' },
-      { label: 'FUNCTIONS USED', text: '[Placeholder: modules, interfaces and integrations that were used.]' },
-      { label: 'RESULT', text: '[Placeholder: concrete benefits – e.g. time savings, fewer errors, continuous data.]' }
+      { label: 'INITIAL SITUATION', text: '[Placeholder: company, previous way of working, systems in use.]' },
+      { label: 'SOLUTION', text: '[Placeholder: which processes were redesigned with IMOS and Lumacon?]' },
+      { label: 'RESULT', text: '[Placeholder: concrete benefits – time savings, fewer errors, continuous data.]' }
     ],
     quoteLabel: 'CUSTOMER STATEMENT',
-    quote: '"[Placeholder for a quote from the reference customer about working with Lumacon and the impact on daily operations.]"',
-    quoteAuthor: '[Name, role, company]'
+    quote: '"[Placeholder for a quote from the reference customer about working with Lumacon.]"',
+    quoteAuthor: '[Name, role, company]',
+    logosLabel: 'Companies that trust Lumacon',
+    logosNote: '[Add customer logos]'
+  },
+  faq: {
+    kicker: 'FAQ',
+    title: 'Frequently asked questions',
+    items: [
+      { q: 'Who is IMOS suitable for?', a: 'For joineries, furniture makers, kitchen and shop fitters and interior fit-out companies – from one-off production to series manufacturing. Whether IMOS fits your company is what we clarify in the first conversation.' },
+      { q: 'How does an implementation work?', a: 'In five steps: first conversation, analysis of your workflows, IMOS demo with your examples, implementation with training, then ongoing support. You know what comes next at every stage.' },
+      { q: 'How long does an implementation take?', a: 'It depends on the scope – from a few weeks for a focused start to several months with machine integration and customizing. You get a realistic schedule after the analysis.' },
+      { q: 'Can existing software be integrated?', a: 'Yes. ERP systems, industry software, machines and web shops can be connected via interfaces. This is one of my core services.' },
+      { q: 'Is training available?', a: 'Yes, hands-on and based on your own projects. Your team learns exactly the functions it needs in daily work – and I support you personally at go-live.' },
+      { q: 'Does Lumacon also support existing IMOS customers?', a: 'Yes. Many companies only use part of the possibilities. I analyze your existing installation and optimize processes, master data and integrations.' },
+      { q: 'What does a first consultation look like?', a: 'By phone or on site, free and without obligation. We discuss your situation and you get an honest assessment – even if IMOS is not the right solution.' }
+    ]
   },
   support: {
-    kicker: 'SUPPORT',
-    title: 'Fast assistance when you need it',
-    text: 'Existing customers have direct access to support for technical questions and requests. For remote maintenance, QuickSupport is all you need – also available at',
+    title: 'Already a customer?',
+    text: 'Direct support access is available for technical questions – for remote maintenance via',
     shortUrl: 'lumacon.at/qs',
     buttons: [
-      { label: 'Request support', href: '#kontakt', variant: 'primary' },
-      { label: 'Start QuickSupport', href: '/qs', variant: 'secondary' },
-      { label: 'Open support portal', href: '#support', variant: 'ghost' }
+      { label: 'Request support', href: 'mailto:office@lumacon.at?subject=Support%20request', variant: 'secondary' },
+      { label: 'Start QuickSupport', href: '/qs', variant: 'ghost' }
     ]
   },
   contact: {
     kicker: 'CONTACT',
     title: "Let's talk about your processes",
-    text: 'You want to introduce IMOS, optimize existing workflows or better connect your production? We are happy to advise you personally.',
+    text: 'Tell me where your company stands. You get an honest assessment – free and without obligation.',
     rows: [
-      { label: 'EMAIL', value: 'office@lumacon.at', href: 'mailto:office@lumacon.at' },
+      { label: 'EMAIL', value: 'office@lumacon.at', href: 'mailto:office@lumacon.at?subject=IMOS%20consultation%20request' },
+      { label: 'PHONE', value: '+43 664 2019 662', href: 'tel:+436642019662' },
       { label: 'LOCATION', value: 'Waidhofner Straße 88, 3335 Weyer, Austria' },
       { label: 'HOURS', value: 'Monday – Friday, 8:00 am to 4:00 pm' }
     ],
-    cardRole: 'Your direct contact',
-    cardText: 'You talk directly to me – not to a hotline. Call or write to me and we will discuss, without obligation, where your processes stand today.',
+    cardRole: 'You write directly to me',
+    cardText: 'No hotline, no ticket system. Your message reaches me – and I reply personally.',
     callLabel: 'Call: +43 664 2019 662',
     callHref: 'tel:+436642019662',
     mailLabel: 'Send an email',
-    mailHref: 'mailto:office@lumacon.at?subject=IMOS%20consultation%20request',
+    mailHref: 'mailto:office@lumacon.at?subject=IMOS%20consultation%20request&body=Dear%20Mr.%20Lumplecker%2C%0A%0Awe%20would%20like%20to%20digitalize%20our%20processes%20and%20are%20interested%20in%20a%20first%20consultation.%0A%0AOur%20company%3A%20%0AOur%20current%20situation%3A%20%0A%0AKind%20regards',
     hours: 'Available Monday – Friday, 8:00 am to 4:00 pm'
   },
   legal: {
     imprintLabel: 'LEGAL NOTICE',
     imprint: 'Lumacon Holztechnologie GmbH · Managing Director: Harald Lumplecker · Waidhofner Straße 88, 3335 Weyer, Austria · Email: office@lumacon.at · Phone: +43 664 2019 662 · VAT ID: ATU24129306 · [Add company register number and competent court]',
     privacyLabel: 'PRIVACY',
-    privacy: 'We use your data exclusively to process your request. It is not shared with third parties. [Add complete GDPR privacy policy – controller, legal bases, retention periods, data subject rights.]'
+    privacy: 'We use your data exclusively to process your request. It is not shared with third parties. [Add complete GDPR privacy policy.]'
   },
   footer: {
-    positioning: 'Consulting, implementation and service partner for digital processes in furniture production and interior fit-out. Authorized IMOS partner for Austria.',
+    positioning: 'Personal consulting, implementation and support for IMOS – for furniture production, joineries and interior fit-out. Authorized IMOS partner for Austria.',
     navLabel: 'NAVIGATION',
     contactLabel: 'CONTACT',
     partnerLabel: 'PARTNERSHIP',
