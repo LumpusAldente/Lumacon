@@ -1,0 +1,15 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+# Kurz-URL für TeamViewer QuickSupport
+[[redirects]]
+from = "/qs"
+to = "https://download.teamviewer.com/download/TeamViewerQS.exe"
+status = 302
+
+# SPA-freie statische Seite – 404 auf die Startseite
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 404
